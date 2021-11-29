@@ -23,12 +23,12 @@ We hope to support the community by providing a multi-purpose set of raw data fo
 </details>
 
 ## Data format
-The dataset is stored in [`.json`](https://www.json.org) format and has been divided into multiple batches. Here’s the example of each record's format:
+The raw dataset is stored raw_data folder with [`.json`](https://www.json.org) format and has been divided into 8 batches. Each batche is a [`.json`](https://www.json.org) file that have an array which con contain many json and each json is a record of the dataset. Here’s the example of each record's format:
 
 | Key          | Type                   | Description                                  |
 | ------------ | -----------------------| -------------------------------------------- |
 | title        | string                 | title of the digital news                    |
-| url          | string                 | link to the digital news                     |
+| uri          | string                 | link to the digital news                     |
 | description  | string                 | description of the digital news              |
 
 Example for a record of dataset:
